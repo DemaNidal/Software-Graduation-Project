@@ -1,0 +1,99 @@
+name: JAFFA
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+  
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.4  
+  intl: ^0.17.0
+  web_socket_channel: ^2.1.0
+  marquee: ^2.0.3 # Use the latest version
+  provider: ^5.0.0
+  get: any
+  another_stepper: ^1.2.2
+  
+ 
+  cupertino_icons: ^1.0.2
+  pinput: ^3.0.1
+  rive: ^0.12.3
+  page_view_indicators: ^2.0.0
+  sms_autofill: ^2.3.0
+  snippet_coder_utils: ^1.0.9
+  smooth_page_indicator: ^1.0.0
+  flutter_svg: ^1.1.6
+  loading_animation_widget:
+  custom_rating_bar: ^2.0.5
+  flutter_custom_tab_bar: ^1.2.1
+  rxdart: ^0.27.7
+  carousel_slider: ^4.2.1
+  flutter_launcher_icons: ^0.13.1
+  shared_preferences: ^2.2.2
+  # get: ^4.6.6
+  socket_io_client: ^2.0.3+1
+  overlay_support: ^2.1.0
+  dropdown_search: ^5.0.6
+  firebase_core: ^2.24.0
+  firebase_messaging: ^14.7.6
+  flutter_local_notifications: ^16.2.0
+  google_maps_flutter: ^2.0.10
+  geocoding: ^2.1.1
+  geolocator: ^10.1.0
+  geocoder2: ^1.4.0
+  floating_action_bubble: ^1.1.4
+  flutter_polyline_points: ^1.0.0
+  dio: ^5.4.0
+  permission_handler: ^11.1.0
+  google_maps_webservice: ^0.0.19
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/Backgrounds/logo.png"
+
+
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/avaters/
+    - assets/Backgrounds/
+    - assets/icons/
+    - assets/RiveAssets/
+    - assets/images/
+    - assets/Backgrounds/COFFE.gif
+  fonts:
+    - family: DroidArabicNaskh
+      fonts:
+        - asset: assets/Fonts/Droid Arabic Naskh Bold.ttf
+    - family: Lateef
+      fonts:
+        - asset: assets/Fonts/Lateef-Regular.ttf
+        - asset: assets/Fonts/Lateef-Bold.ttf    
